@@ -13,11 +13,13 @@ const SplashScreen = () => {
             fontSize: 30,
             fontWeight: "bold",
             textTransform: "uppercase",
-            position: "absolute",
-            bottom: 100,
-            backgroundColor: "black",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
             width: "100%",
-            textAlign: "center",
+            position: "absolute",
+            bottom: 80,
+            right: 0,
           }}
         >
           Home Workout
