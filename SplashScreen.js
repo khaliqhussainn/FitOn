@@ -1,29 +1,12 @@
 import { StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
-import Icon from "./assets/workout.jpg";
+import Icon from "./assets/fitOn.png";
 
 const SplashScreen = () => {
   return (
     <View style={styles.container}>
       <View>
         <Image source={Icon} style={styles.image}></Image>
-        <Text
-          style={{
-            color: "white",
-            fontSize: 30,
-            fontWeight: "bold",
-            textTransform: "uppercase",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "100%",
-            position: "absolute",
-            bottom: 80,
-            right: 0,
-          }}
-        >
-          Home Workout
-        </Text>
       </View>
     </View>
   );
@@ -39,8 +22,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   image: {
-    width: 500,
-    height: "100%",
+    width: 450,
+    height: "80%",
     resizeMode: "cover",
   },
 });

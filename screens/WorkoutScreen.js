@@ -79,7 +79,7 @@ const WorkoutScreen = () => {
           setCompleted([]);
         }}
         style={{
-          backgroundColor: "#cd853f",
+          backgroundColor: "#1a5355",
           marginVertical: 20,
           padding: 10,
           marginLeft: "auto",

@@ -28,7 +28,7 @@ const FitScreen = () => {
   return (
     <SafeAreaView>
       <Image
-        style={{ width: "100%", height: 370 }}
+        style={{ width: "100%", height: 370}}
         source={{ uri: current.image }}
       />
       <Text
@@ -97,7 +97,7 @@ const FitScreen = () => {
             marginRight: "auto",
             marginTop: 30,
             padding: 10,
-            backgroundColor: "#cd853f",
+            backgroundColor: "#1a5355",
             borderRadius: 20,
             width: 150,
           }}
@@ -134,7 +134,7 @@ const FitScreen = () => {
             }, 2000);
           }}
           style={{
-            backgroundColor: "green",
+            backgroundColor: "#25777a",
             padding: 10,
             borderRadius: 20,
             marginHorizontal: 20,
@@ -154,7 +154,7 @@ const FitScreen = () => {
               navigation.navigate("Home");
             }}
             style={{
-              backgroundColor: "green",
+              backgroundColor: "#7a2825",
               padding: 10,
               borderRadius: 20,
               marginHorizontal: 20,
@@ -181,7 +181,7 @@ const FitScreen = () => {
               }, 2000);
             }}
             style={{
-              backgroundColor: "green",
+              backgroundColor: "#7a2825",
               padding: 10,
               borderRadius: 20,
               marginHorizontal: 20,

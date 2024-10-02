@@ -19,7 +19,7 @@ const HomeScreen = () => {
       <ScrollView showsVerticalScrollIndicator={false} style={{ flexGrow: 1 , paddingBottom: 50 }}>
         <View
           style={{
-            backgroundColor: "#4B011D",
+            backgroundColor: "#1a5355",
             padding: 10,
             height: "20%",
             width: "100%",
